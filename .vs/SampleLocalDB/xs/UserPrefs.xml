@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{DB6E2102-4EBC-46C3-96F3-FC09F8FC2908}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleLocalDB/RestarauntSecondListPage.xaml">
+    <Files>
+      <File FileName="SampleLocalDB/App.xaml.cs" Line="43" Column="6" />
+      <File FileName="SampleLocalDB/IDBInterface.cs" Line="1" Column="1" />
+      <File FileName="SampleLocalDB/ILocalFileHelper.cs" Line="1" Column="1" />
+      <File FileName="SampleLocalDB/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="SampleLocalDB/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="SampleLocalDB/RestarauntSecondListPage.xaml.cs" Line="17" Column="10" />
+      <File FileName="SampleLocalDB/RestarauntSecondListPage.xaml" Line="34" Column="2" />
+      <File FileName="SampleLocalDB.iOS/Main.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SampleLocalDB.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.SampleLocalDB.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.98807268-B7F6-4790-B03A-F6C0224B9651" automaticSigning="False" />
+</Properties>

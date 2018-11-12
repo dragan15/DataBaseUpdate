@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SampleLocalDB.RestarauntListPage">
+    <ContentPage.Content>
+        <ListView x:Name = "RestarauntListView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="Restaraunt_ItemSelected">
+        <ListView.ItemTemplate> 
+        <DataTemplate>
+      <!--This line binds data in the text cell being created. Meaning whatever changes happen, happen automatically -->
+           <TextCell Text="{Binding Restaraunt_Name}" Address = "{Binding Restaraunt_Address}" City = "{Binding Restaraunt_City}" State = "{Binding Restaraunt_State}" Zip = "{Binding Restaraunt_Zip}" Phone = "{Binding Restaraunt_Phone}" Email = "{Binding Restaraunt_Email}" Lat = "{Binding Restaraunt_Lat}" Long = "{Binding Restaraunt_Long}" MenuName = "{Binding Menu_Name}" MenuDescription = "{Binding Menu_Description}" CategoryName = "{Binding Category_Name}" CategoryDescription = "{Binding Category_Description}" CategoryPrice = "{Binding Category_Price}"/>    
+        </DataTemplate>
+        </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage> 

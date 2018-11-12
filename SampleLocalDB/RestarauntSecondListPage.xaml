@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SampleLocalDB.RestarauntSecondListPage">
+    <ContentPage.Content>
+    <StackLayout Padding = "10" HorizontalOptions = "FillAndExpand" VerticalOptions = "FillAndExpand">
+            <Grid>
+              <Grid.ColumnDefinitions>
+              <ColumnDefinition Width= "Auto" />
+              <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>   
+                <Label Text = "Restaurant Name" Grid.Row="0" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_Name}" Grid.Row="0" Grid.Column="1"/>
+                <Label Text = "Restaurant Address" Grid.Row="1" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_Address}" Grid.Row="1" Grid.Column="1"/>
+                <Label Text = "Restaurant city" Grid.Row="2" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_City}" Grid.Row="2" Grid.Column="1"/>
+                <Label Text = "Restaurant State" Grid.Row="3" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_State}" Grid.Row="3" Grid.Column="1"/>
+                <Label Text = "Restaurant Zip" Grid.Row="4" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_Zip}" Grid.Row="4" Grid.Column="1"/>
+                <Label Text = "Restaurant Phone" Grid.Row="5" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_Phone}" Grid.Row="5" Grid.Column="1"/>
+                <Label Text = "Restaurant Email" Grid.Row="6" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_Email}" Grid.Row="6" Grid.Column="1"/>
+                <Label Text = "Restaurant Lat" Grid.Row="7" Grid.Column="0" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_Lat}" Grid.Row="8" Grid.Column="0"/>
+                <Label Text = "Restaurant Long" Grid.Row="7" Grid.Column="2" HorizontalOptions = "Start" VerticalOptions = "Center"></Label>
+                    <Entry Text="{Binding Restaraunt_Long}" Grid.Row="8" Grid.Column="1"/>
+            </Grid>
+            <Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent" TextColor="Black" Clicked="Save_Clicked"/>
+            <Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent" TextColor="Black" Clicked= "Cancel_Clicked" />
+      </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 
+ 

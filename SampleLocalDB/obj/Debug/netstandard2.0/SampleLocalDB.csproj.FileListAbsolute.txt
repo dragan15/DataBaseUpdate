@@ -1,0 +1,12 @@
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/bin/Debug/netstandard2.0/SampleLocalDB.deps.json
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/bin/Debug/netstandard2.0/SampleLocalDB.dll
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/bin/Debug/netstandard2.0/SampleLocalDB.pdb
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/RestarauntListPage.xaml.g.cs
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/RestarauntSecondListPage.xaml.g.cs
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/SampleLocalDB.csproj.CoreCompileInputs.cache
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/SampleLocalDB.AssemblyInfoInputs.cache
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/SampleLocalDB.AssemblyInfo.cs
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/SampleLocalDB.dll
+/Users/vesnalukic/Projects/SampleLocalDB/SampleLocalDB/obj/Debug/netstandard2.0/SampleLocalDB.pdb
